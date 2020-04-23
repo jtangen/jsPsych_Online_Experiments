@@ -20,7 +20,7 @@ var keypress_choices = ["j","k","l"];
 
 var keypress_prompt = "Press J(Red), K(Yellow), or L(Green)";
 
-var debrief_text = "<p>The purpose of this study was to provide an example of a simple experiment that is run with jsPsych.</p> <p>Thank you for participating. If you want a more thorough explanation of the experiment then visit our GitHub repository <b>https://github.com/SmithBradleyC/jsPsych_Online_Experiments</b> </p> <p>Press any key to finish the experiment (this is where SONA subjects will be redirected to the SONA website and automatically granted their credit).</p>";
+var debrief_text = "<p>The purpose of this study was to provide an example of a simple experiment that is run with jsPsych.</p> <p>Thank you for participating. If you want a more thorough explanation of the experiment then visit our GitHub repository <b>https://github.com/jtangen/jsPsych_Online_Experiments</b> </p> <p>Press any key to finish the experiment (this is where SONA subjects will be redirected to the SONA website and automatically granted their credit).</p>";
 
 var age_text = "What is your age in years?";
 
