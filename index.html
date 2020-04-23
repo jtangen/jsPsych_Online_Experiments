@@ -69,27 +69,29 @@ Experiment is explained on GitHub https://github.com/SmithBradleyC/jsPsych_Onlin
 <!-- ################################## -->
 
 <!-- Allow remote storage on Google Firebase -->
-<script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script> <!-- #FIREBASE -->
-<script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-auth.js"></script> <!-- #FIREBASE -->
-<script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-database.js"></script> <!-- #FIREBASE -->
+<script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-app.js"></script> <!-- #FIREBASE -->
+<script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-auth.js"></script> <!-- #FIREBASE -->
+<script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-database.js"></script> <!-- #FIREBASE -->
 
 <!-- enter some javascript code-->
 <script type="text/javascript">
 // Firebase set up
 
  // Your web app's Firebase configuration (given to us by firebase)
-  var firebaseConfig = { // #FIREBASE
-    apiKey: "AIzaSyAzGClrvmRPuLr-FHAOtdY5vkMON-t9geQ", // #FIREBASE
-    authDomain: "contingencypractice.firebaseapp.com", // #FIREBASE
-    databaseURL: "https://contingencypractice.firebaseio.com", // #FIREBASE
-    projectId: "contingencypractice", // #FIREBASE
-    storageBucket: "contingencypractice.appspot.com", // #FIREBASE
-    messagingSenderId: "999696162491", // #FIREBASE
-    appId: "1:999696162491:web:5d5cbdcc07f4d48712d39e", // #FIREBASE
+  var firebaseConfig = {
+    apiKey: "AIzaSyBedMVw4-0z1Es152jA1sI-kwZ8RIGGCy8",
+    authDomain: "jspsych-online-experiments.firebaseapp.com",
+    databaseURL: "https://jspsych-online-experiments.firebaseio.com",
+    projectId: "jspsych-online-experiments",
+    storageBucket: "jspsych-online-experiments.appspot.com",
+    messagingSenderId: "86817634558",
+    appId: "1:86817634558:web:d6215b4ad31745b6ac4daf",
+    measurementId: "G-YE8Q5FBS6Q"
   }; // #FIREBASE 
   
   // Initialize Firebase
-  firebase.initializeApp(firebaseConfig); // #FIREBASE
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics(); // #FIREBASE
   
   // Get a reference to the database service
   var database = firebase.database(); // #FIREBASE
