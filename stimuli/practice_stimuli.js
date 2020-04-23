@@ -1,8 +1,8 @@
 var practice_stimuli = [
 {
-	"stimulus":"<p id = 'contingency_stim', style = 'color: red; font-size: 60pt;'>MONTH</p>", 
+	"stimulus":"<p id = 'contingency_stim', style = 'color: red; font-size: 60pt;'>PAINT</p>", 
 	"data": {
-		"word": "MONTH",
+		"word": "PAINT",
 		 "colour": "red",
 		 "cor_response": "j",
 		 "phase": "Practice",
@@ -10,9 +10,9 @@ var practice_stimuli = [
 	},
 },
 {
-	"stimulus":"<p id = 'contingency_stim', style = 'color: yellow; font-size: 60pt;'>MONTH</p>", 
+	"stimulus":"<p id = 'contingency_stim', style = 'color: yellow; font-size: 60pt;'>PAINT</p>", 
 	"data": {
-		"word": "MONTH",
+		"word": "PAINT",
 		 "colour": "yellow",
 		 "cor_response": "k",
 		 "phase": "Practice",
@@ -20,9 +20,9 @@ var practice_stimuli = [
 	},
 },
 {
-	"stimulus":"<p id = 'contingency_stim', style = 'color: green; font-size: 60pt;'>MONTH</p>", 
+	"stimulus":"<p id = 'contingency_stim', style = 'color: green; font-size: 60pt;'>PAINT</p>", 
 	"data": {
-		"word": "MONTH",
+		"word": "PAINT",
 		 "colour": "green",
 		 "cor_response": "l",
 		 "phase": "Practice",
